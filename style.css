@@ -8,6 +8,10 @@ a {
   color: #267cb9;
 }
 
+.hided a {
+  color: rgb(202, 22, 22);
+}
+
 p,
 h1,
 h2,
