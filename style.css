@@ -41,8 +41,6 @@ p,
 h1,
 h2,
 h3 {
-  padding-top: 5px;
-  padding-bottom: 5px;
   line-height: 1.2;
 }
 
@@ -55,6 +53,8 @@ h2 {
 h3 {
   font-size: 18px;
   color: #267cb9;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 p {
@@ -82,11 +82,17 @@ p {
   padding: 0px;
 }
 
+.navbar-brand {
+  margin-bottom: 14px;
+}
+
 .projectTitle {
   background-color: #267cb9;
   border-radius: 3px;
   padding-left: 10px;
   color: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 @media (min-width: 576px) {
