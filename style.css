@@ -2,10 +2,19 @@ body {
   position: relative;
 }
 
+span {
+  color: #393939;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #267cb9;
 }
 
 img#profileImg {
@@ -13,7 +22,10 @@ img#profileImg {
 }
 
 #scrollArea img {
-  width: 200px;
+  object-fit: cover;
+  width: 350px;
+  height: 250px;
+  margin: 5px;
 }
 
 .addPadding {
@@ -25,30 +37,29 @@ img#profileImg {
   background-color: #fff transparent !important;
 }
 
-a {
-  text-decoration: none;
-  color: #267cb9;
-}
-
 p,
 h1,
 h2,
 h3 {
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #393939;
   line-height: 1.2;
 }
 
 h1 a,
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   color: #393939;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #267cb9;
+}
+
+p {
+  font-size: 16px;
+  color: #393939;
 }
 
 .vertical-center {
@@ -61,7 +72,7 @@ h3 {
 #scrollArea {
   overflow-y: scroll;
   max-height: 600px;
-  max-width: 800px;
+  max-width: 850px;
   margin: auto;
   padding: 10px;
 }
@@ -69,6 +80,13 @@ h3 {
 #navbar-example2 {
   margin: auto;
   padding: 0px;
+}
+
+.projectTitle {
+  background-color: #267cb9;
+  border-radius: 3px;
+  padding-left: 10px;
+  color: whitesmoke;
 }
 
 @media (min-width: 576px) {
