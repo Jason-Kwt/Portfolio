@@ -1,9 +1,19 @@
-body {
-  position: relative;
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  max-width: 755px;
+  max-height: 100%;
+  border-radius: 3px;
+  margin: 5px;
 }
 
 span {
   color: #393939;
+  font-weight: 900;
 }
 
 img {
@@ -19,12 +29,20 @@ a {
 
 img#profileImg {
   width: 200px;
+  margin-bottom: 25px;
 }
 
-#scrollArea img {
+#scrollArea img.horizontal {
   object-fit: cover;
-  width: 350px;
+  width: 370px;
   height: 250px;
+  margin: 5px;
+}
+
+#scrollArea img.vertical {
+  object-fit: cover;
+  width: 200px;
+  height: 400px;
   margin: 5px;
 }
 
